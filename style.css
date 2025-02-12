@@ -1,0 +1,217 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0px auto;
+    width: 1620px;
+}
+/* header */
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,252,255,1) 0%, rgba(195,248,255,1) 50%, rgba(225,252,255,1) 100%);
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+.header-menu {
+    display: flex;
+    gap: 70px;
+}
+.header-link {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: #7e7e7e;
+}
+/* hero */
+.hero {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: azure;
+    border-top: 1px solid #575757;
+}
+.hero-container {
+    display: flex;
+    gap: 250px;
+}
+.hero-text {
+    font-size: 48px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+.hero-title {
+    font-size: 64px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.hero-textwo {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.hero-img {
+    width: 450px;
+}
+/* design */
+.design {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    border-top: 1px solid #575757;
+}
+.design-text {
+    font-size: 48px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+.design-title {
+    font-size: 64px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.design-textwo {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.design-img {
+    width: 1000px;
+    margin-left: 350px;
+    padding-top: 80px;
+}
+.design-texthree {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.design-textfour {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+/* camera */
+.camera {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: azure;
+    border-top: 1px solid #575757;
+}
+.camera-container {
+    display: flex;
+    gap: 250px;
+}
+.camera-text {
+    font-size: 48px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+.camera-title {
+    font-size: 64px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.camera-textwo {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.camera-texthree {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.camera-textfour {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.camera-list {
+    padding-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.camera-img {
+    width: 400px;
+}
+/* chip */
+.chip {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    border-top: 1px solid #575757;
+}
+.chip-container {
+    display: flex;
+    gap: 250px;
+}
+.chip-title {
+    font-size: 64px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+.chip-text {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.chip-textwo {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.chip-img {
+    width: 450px;
+}
+/* footer */
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,252,255,1) 0%, rgba(195,248,255,1) 50%, rgba(225,252,255,1) 100%);
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+.footer-text {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+}
